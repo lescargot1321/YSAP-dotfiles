@@ -67,7 +67,7 @@ alias ll='ls -lha'
 alias suod='sudo'
 
 # Aliases (if applicable)
-grep --color=auto < /dev/null &>/dev/null &&
+echo 'a' | grep --color=auto 'a' &>/dev/null &&
     alias grep='grep --color=auto'
 command -v xdg-open &>/dev/null &&
     alias open='xdg-open'
